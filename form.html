@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-md-5 offset-md-2"> <!-- ekahane offset mane hocce se 3 ta column ke skip korbe tai from ta middle e ace -->
+				<div class="card">
+					<div class="card-header">
+						<h2 class="text-center">Register</h2>
+					</div>
+					<div class="card-body">
+						<form action="#" method="post">
+					<div class="form-group">
+						<label for="name"> name <span class="text-danger">*</span></label>
+					<input type="text" name="username" id="name" class="form-control form-control-sm is-valid" required="" value="priya saha" readonly="">
+					</div>
+					<div class="form-group">
+						<label for="email">email<span class="text-danger">*</span></label>
+					<input type="email" name="email" id="email" class="form-control form-control-lg is-invalid" required="" placeholder="Enter your email">
+					</div>
+					<div class="form-group">
+						<label for="dob">Date of Birth <span class="text-danger">*</span></label>
+					<input type="date" name="dob" id="dob" class="form-control" required="">
+					</div>
+					<div class="form-group">
+						<label for="district">Enter your district <span class="text-danger">*</span></label>
+					    <select name="district" id="district" class="form-control" required="">
+					    	<option value="Dhaka">Dhaka</option>
+					    	<option value="Rajshashi">Rajshahi</option>
+					    	<option value="khulna">khulna</option>
+					    	<option value="Feni">Feni</option>
+					    </select>
+					</div>
+					<div class="form-group">
+						<label for="image">Enter your Image <span class="text-danger">*</span></label>
+					    <input type="file" name="image" id="image" class="form-control" >
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="form-group text-center">
+						<button type="submit" class="btn btn-success">Submit</button>
+						<button type="reset" class="btn btn-danger">clear</button>
+					</div>
+				</form>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+		<!-- jquery v3.5.1 JS -->
+	<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+	<!-- Proper JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<!-- Bootstrapv4.5.3 JS -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Main JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
